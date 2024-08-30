@@ -3,7 +3,7 @@
 # Check if the user provided an argument
 if [ "$#" -ne 2 ]; then
     echo "Usage: $0 <dataset_name>"
-    echo "Usage: $1 <vocab_path>"
+    echo "Usage: $1 <closed_vocab_path>"
     exit 1
 fi
 
