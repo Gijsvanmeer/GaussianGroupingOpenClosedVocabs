@@ -5,6 +5,8 @@
 > [**Original Boundary Loss Project**](https://github.com/LIVIAETS/boundary-loss.git)
 
 
+NYU_to_ADE contains the class conversions between the two label sets.
+
 To run the model
 Clone the repository locally
 ```
