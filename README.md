@@ -17,9 +17,10 @@ The default, provided install method is based on Conda package and environment m
 conda create -n gaussian_open_closed python=3.8 -y
 conda activate gaussian_open_closed 
 
-conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+conda install pytorch==1.12.0 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
 pip install plyfile==0.8.1
 pip install tqdm scipy wandb opencv-python scikit-learn lpips
+pip install requirements.txt
 
 pip install submodules/diff-gaussian-rasterization
 pip install submodules/simple-knn
