@@ -10,5 +10,5 @@ scikit-image==0.24.0
 tensorboard==2.16.2
 timm==0.9.16
 tokenizers==0.15.2
-transformers==4.38.2
+transformers>=5.10.0
 yapf==0.40.2
